@@ -1,0 +1,12 @@
+.head{
+    font-weight:600;
+    font-size: 2.5ch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para{
+    margin-top: 1.5ch;
+     line-height: 2.5ch;
+     font-size: 17px;
+     margin-bottom: 2ch;
+}

@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { Grid, Typography } from "@mui/material";
+import "./App.css";
+import Home from "./components/Home";
+import SideBar from "./components/sideBar";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Grid container sx={{ height: "100vh", position: "fixed" }}>
+        <Grid item lg={3} sx={{ backgroundColor: " #00001b" }}>
+          <SideBar />
+        </Grid>
+      </Grid>
+      <Grid container sx={{ position: "relative", width: "1440px" }}>
+        <Grid item lg={3}></Grid>
+        <Grid item lg={9} sx={{ backgroundColor: "bisque" }}>
+          
+          <Home />
+          <About />
+          <Resume />
+          <Contact />
+        </Grid>
+      </Grid>
+    </>
   );
 }
 
 export default App;
+//

@@ -1,0 +1,26 @@
+.Rounded-image{
+    height: 190px;
+    width: 180px;
+    margin-left: 38px;
+    margin-top: 65px;
+    /* margin: 80px; */
+    border-style: solid;
+    border-color:rgb(46, 47, 50);
+    border-width: 0.6cm;
+    border-radius: 50%;
+}
+
+.list{
+     list-style-type: none;
+     padding-top: 20px;
+padding-left: 110px;
+    color: white;
+    line-height: 60px;
+    word-spacing: 15px;
+    
+
+}
+.list:hover{
+    color: rgb(19, 116, 116);
+    
+}
