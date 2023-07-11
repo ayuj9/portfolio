@@ -22,6 +22,7 @@ function App() {
           <About />
           hello ji 
           <Resume />
+          byyyy
           <Contact />
         </Grid>
       </Grid>
