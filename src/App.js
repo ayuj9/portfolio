@@ -17,7 +17,7 @@ function App() {
       <Grid container sx={{ position: "relative", width: "1440px" }}>
         <Grid item lg={3}></Grid>
         <Grid item lg={9} sx={{ backgroundColor: "bisque" }}>
-          
+          heyyyyyyyyyy
           <Home />
           <About />
           <Resume />
