@@ -20,6 +20,7 @@ function App() {
           heyyyyyyyyyy
           <Home />
           <About />
+          hello ji 
           <Resume />
           <Contact />
         </Grid>
