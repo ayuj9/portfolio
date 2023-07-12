@@ -5,7 +5,7 @@ import "./About.css";
 function About() {
   return (
     <>
-      <Box bgcolor="white" height="790px" marginTop="310px">
+      <Box bgcolor="white" height="790px" marginTop="40px">
         <Typography marginLeft="280px" marginRight="20px" >
           <div className="About-heading">About</div>
           <Typography marginTop={5}>

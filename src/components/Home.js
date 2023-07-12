@@ -6,14 +6,15 @@ function Home() {
   return (
     <>
       <Grid container>
-        <Grid item lg={7}>
+        <Grid item lg={7} md={9} >
           <Typography
+          color="#2f1c04"
             fontWeight="bold"
             fontStyle="unset"
             fontSize={66}
-            marginTop={28}
+            marginTop={10}
             fontFamily="Roboto"
-            marginLeft={"330px"}
+            marginLeft={"200px"}
           >
             
             Ayushi Jain
@@ -22,9 +23,11 @@ function Home() {
                 <div className="typewriter">I'm Web Developer</div>
               </div>
             </Typography>
+
           </Typography>
+          <img  src="portfolioImg.jpeg" width="900px" height="400px"  />
         </Grid>
-        <Grid item lg={5} marginTop="0px">
+        <Grid item lg={5} md={3} xs={3} marginTop="0px">
           <Typography marginTop="0px">
             <div class="container">
               <div class="ball"></div>

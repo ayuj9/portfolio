@@ -5,18 +5,20 @@
     margin-top: 65px;
     /* margin: 80px; */
     border-style: solid;
-    border-color:rgb(46, 47, 50);
-    border-width: 0.6cm;
+    border-color:rgb(139, 166, 187);
+    border-width: 0.5cm;
     border-radius: 50%;
 }
 
 .list{
      list-style-type: none;
      padding-top: 20px;
-padding-left: 110px;
+padding-left: 100px;
     color: white;
-    line-height: 60px;
+    line-height: 70px;
     word-spacing: 15px;
+    font-size: 20px;
+    letter-spacing: 6px;
     
 
 }
