@@ -1,12 +1,12 @@
 import React from "react";
 import "./sideBar.css";
-import { Button} from "@mui/material";
-import Home from "./Home";
-import About from "./About";
+// import { Button} from "@mui/material";
+// import Home from "./Home";
+// import About from "./About";
 function SideBar() {
   return (
     <>
-      <img src="picture.jpg" className="Rounded-image" />
+      {/* <img src="picture.jpg" className="Rounded-image" /> */}
       
       <ul className="list">
         <li>

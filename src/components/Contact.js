@@ -1,10 +1,10 @@
-import { Grid, Icon, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import "./About.css";
 import "./Contact.css";
 import Box from "@mui/material/Box";
-import RoomOutlinedIcon from "@mui/icons-material/RoomOutlined";
-import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
-import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
+// import RoomOutlinedIcon from "@mui/icons-material/RoomOutlined";
+// import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
+// import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 
 function Contact() {
   return (
@@ -27,7 +27,7 @@ function Contact() {
                 <i class="fa-brands fa-linkedin"></i>
               </div>
             </Grid>
-            <Grid item marginTop="30px" >
+            <Grid item marginTop="30px">
               <div className="content">
                 <b>Location :</b>
                 Gwalior, M.P., India

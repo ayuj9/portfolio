@@ -1,4 +1,4 @@
-import { Grid, List, ListItem, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import "./About.css";
 
@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <Box bgcolor="white" height="790px" marginTop="40px">
-        <Typography marginLeft="280px" marginRight="20px" >
+        <Typography marginLeft="280px" marginRight="20px">
           <div className="About-heading">About</div>
           <Typography marginTop={5}>
             <div className="Para-Spacing">
