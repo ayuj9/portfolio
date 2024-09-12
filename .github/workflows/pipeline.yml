@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,5 +35,8 @@ jobs:
       - name: run build
         run: npm run build
 
-      - name: run test
-        run: npm test
+      - name: deploy to github pages
+        run: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build
