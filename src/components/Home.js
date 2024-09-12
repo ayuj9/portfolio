@@ -33,7 +33,6 @@ function Home() {
               <div class="ball"></div>
               <div class="ball"></div>
               <div class="ball"></div>
-              <div class="ball"></div>
             </div>
           </Typography>
         </Grid>
