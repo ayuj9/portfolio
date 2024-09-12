@@ -35,8 +35,13 @@ jobs:
       - name: run build
         run: npm run build
 
+<<<<<<< HEAD
       - name: deploy to github pages
         run: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
           folder: build
+=======
+      - name: run test
+        run: npm test -- --passWithNoTests
+>>>>>>> 1443dc5524519bd7841cd111c05249230eb61ee3
