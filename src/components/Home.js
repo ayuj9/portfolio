@@ -18,7 +18,7 @@ function Home() {
             Ayushi Jain
             <Typography marginRight="600px">
               <div className="container">
-                <div className="typewriter">I'm Web Developer</div>
+                <div className="typewriter">I'm Web Developer..</div>
               </div>
             </Typography>
           </Typography>
