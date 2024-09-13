@@ -36,19 +36,11 @@ jobs:
       - name: run build
         run: npm run build
 
-      # - name: deploy to github pages
-      #   uses: JamesIves/github-pages-deploy-action@4.1.0
-      #   with:
-      #     branch: gh-pages
-      #     folder: build
+      - name: deploy to github pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build
 
       
-      - name: upload artifacts
-        uses: actions/upload-pages-artifact@v1
-        with: 
-          path: "./out"
-
-      
-      - name: deploy
-        id: deployment
-        uses: actions/deploy-pages@v2
+  
